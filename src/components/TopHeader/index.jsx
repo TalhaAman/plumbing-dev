@@ -9,7 +9,7 @@ import linkedinIcon from "../../assets/icons/linkedin.svg";
 const TopHeader = () => {
   return (
     <div className="top-header d-md-flex justify-content-between gap-3">
-      <div className="d-md-flex justify-content-end badge-wrapper">
+      <div className="d-flex justify-content-center  justify-content-lg-end badge-wrapper">
         <div className="text-end">
           <h5 className="top-header-heading">TURNAROUND TIME 24-48 HOURS!</h5>
           <div className="d-flex justify-content-center  w-100">

@@ -1,19 +1,20 @@
-.navbar {
+.navbar-bg {
   background-color: #e1e3e5;
 }
 .main-logo {
-  width: 176px;
-  height: 70px;
+  width: 125px;
+  height: 60px;
 }
 .main-logo img {
-  width: 176px;
-  height: 70px;
+  width: 125px;
+  height: 60px;
   object-fit: cover;
 }
 .nav-menu ul li {
   list-style: none;
   font-weight: 700;
-  padding: 5px 10px;
+  padding: 4px 8px;
+  font-size: 14px;
 }
 .nav-menu ul li:hover {
   background-color: #cfcdcd;
@@ -23,11 +24,43 @@
 .get-estimate {
   background-color: #ff7518;
   color: #fff;
-  padding: 5px 15px;
+  padding: 4px 10px;
   border-radius: 10px;
   border: none;
-  margin-left: 20px;
 }
 .get-estimate:hover {
   background-color: #e55e03;
+}
+.hamburger {
+  border: 1px solid #2f2f2f;
+  border-radius: 5px;
+}
+.hamburger img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.regular {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.regular:hover {
+  background-color: hsl(0, 2%, 81%);
+}
+
+@media only screen and (min-width: 567px) {
+  .main-logo {
+    width: 176px;
+    height: 70px;
+  }
+  .get-estimate {
+    padding: 5px 15px;
+  }
+  .nav-menu ul li {
+    list-style: none;
+    font-weight: 700;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
 }

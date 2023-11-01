@@ -21,7 +21,7 @@ const LandingPage = () => {
   return (
     <div>
       <TopHeader />
-      {/* <Navbar /> */}
+      <Navbar />
       <MainHeader />
       <div className="container py-5">
         <div className="mb-5">
