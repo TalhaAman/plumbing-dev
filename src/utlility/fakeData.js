@@ -66,3 +66,21 @@ export const tradeData = [
       "https://s3-alpha-sig.figma.com/img/1a48/40ec/5af1c05b214235ad49cc0c6efc0a6644?Expires=1699833600&Signature=fOHa3QZUsYbTDizZHow~vH-b9eV-mPfYJPPCTMGVFkjtDuIqEGuhRAX-iBR6K2UGgqNlsSBCnaVwDdiF3DYXjgY5552RzAa2tAP4jOL5xxGE9pdXih-f1GHEWzjsdXSaC~-XoOttL09Lmc5JDt7A6slaQCGk6lDQMJuRuQNxb981aKiVX3RhNsbJuR4XlQUhkEFwU0RZuCVtzNoE55NPs1JfHEN5qMXdp-Q9ECIJlfLGQC4xBa28lc~WIv-ZmqUeTc4EUhFY41EgzSeYc~EH8ydnr8H1S9O-cIzb~Sa67U2atGXNLjUIpR1E9NW2MW7zvcVBx~OwWlWzx7eFHxZl0w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
 ];
+
+export const benefitsImg =
+  "https://s3-alpha-sig.figma.com/img/938b/3b72/13dc0bc769fa22ea98304b0d7cbbfd46?Expires=1699833600&Signature=noqVIVFcZAn1s0BoH0uFSAHLJUGhmFCIqHbIbJVLCQjs~nK1eyLm0NcRBmGTjpyZkKutfyi6INFM0QY~xTv0EdrCpn96O-HKGTgvZATjg-WQlqTaFZ0Cfq~skvYPQXqngmLhk6nt5aV-vwgNioFT~32EpbXLiU1ncNPF3UpCaevZoI5DrhBsY0H9nHk5-Jq23QTf055C26ydIPjxvg58uIk-Y64NbO-qgRoI1Ni~OcDldJjyxyfTAQc4pnchpK3ERbUX59HzB4tRKP91wOm4JZym62-AoJYb93zhsvYQsYrMxv2iMrhz~SckIHYjN1UI6r7Mud-YkosXRzk-Ow0Rug__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+export const uploadPlanBG =
+  "https://s3-alpha-sig.figma.com/img/aa27/f81b/09f5f7f74bbf75155e9bfa3f7f27e279?Expires=1699833600&Signature=afVL64a857hrqphDBfYs2Pk8nvOnJGqP1XZDFg6B89beImxrC9BDDRiyTnd~~PX2SnVPpMG87K0g4CVnawu4FM4sD1khEJ-PgVHydC7LKuIli9-qG9YX0nMrQ7Qyd~spYxtlm96DOBdHWGPmLc7dMK8zoQpnFonOoXpfZtxfZJs82g3ceNJFHPWis4jtxbwN4vxQGErQZiqaUN60rnhawVsy5n0XA7HWxlxqQiAkeTt81zAN0ZqnLUCQmr7QWeWwodEgPSvZP~QKmiv0Jg3Lj~JfFFs4I6xBuP6dMH~g~BeVctE3OYxHqA97g16ymbSDyWnZ6QmGYJ2Jw2VPSULBUQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+export const dropBox =
+  "https://s3-alpha-sig.figma.com/img/6b50/c466/ae2d2b5a2129e6e9b27576313e55aa89?Expires=1699833600&Signature=YkUvJ~Nf4SeUsums4DRY1mbLkcTTnmgQ3NRBu6O--DdW2~o90gudXWRe8vjTHnD9sxpczqSBl0OVleCksITdemGZM-71BQ9TIAuVQPl-6gJaMwtrGcMvl480U3kR0WEexRe33lZ-yZI4M6fS8Ckh1GrtnR9DGKOpqCTGKsUKqtI~v1ZRRfW2iDm-Qy-jenolFxz5qqd84mmTPwCvPMIagP6anU4oogYnLPxWW7JqAK-~kqdHksiQRsGgoH8ob8jZ37P-AE3I-jKYV~ycVFLX4TY-tYU4TWCGTwCO4zaQdV2Qvk51ARhE9gWN8Wn3~W0j~Mi8MX4~gsGSzqJWSXl0Ug__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+export const drive =
+  "https://s3-alpha-sig.figma.com/img/884a/2f88/aa778b2fee671d5fbcb2272452c4a3ee?Expires=1699833600&Signature=d6zAT1NPUBr2OVXEhkx6YLPKItijuvrfYAQlIwVLYklHgkYyry~xipFA4Cq2bhHBr5ktX1aBBRIXTurzaejHOM1OP1pDnOfcYGOipvNyeI7-KauSMfjHMtG3PZqDDj9UK6lRoZL8mUQHMKRNcBRTANmnv82fDpZ4x31ooncsVtAvm4XggRavYE4Yo-p0BxvgFo~TaL~W9b7W0NTrpXycWtTuZO-s6uNeAw6oSbV-QZT89pyYm1BeDdmrDfGV8JC0-sHow23RYxEWD2WIAQPOOtdWNYzowXehbEf5FfNpVPR2N5ZO82gGo5F-lr8Wy~6AtmJJVa6l~NHwxSrZ0sJKIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4";
+
+// export const footerContact = [
+//   {id: '1',
+//   image: '../src/'
+// }
+// ]

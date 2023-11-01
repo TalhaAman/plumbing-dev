@@ -23,11 +23,24 @@ const TopHeader = () => {
         <div className="d-flex gap-4 gap-md-2 align-items-center mt-2 mt-md-0">
           <div className="d-flex flex-md-column gap-3 ">
             <div className="d-flex gap-2  align-items-center">
-              <img src={callIcon} className="top-icon" />
+              <img
+                src={callIcon}
+                className="top-icon"
+                // tabindex="0"
+                // data-bs-toggle="tooltip"
+                // data-bs-placement="top"
+                // title="+1 917 300 1079"
+              />
               <p className="mb-0 d-none d-md-block">+1 917 300 1079</p>
             </div>
             <div className="d-flex gap-2 align-items-center">
-              <img src={emailIcon} className="top-icon" />
+              <img
+                src={emailIcon}
+                className="top-icon"
+                // data-toggle="tooltip"
+                // data-placement="top"
+                // title="Dave@procoreestimators.com"
+              />
               <p className="mb-0 d-none d-md-block">
                 Dave@procoreestimators.com
               </p>

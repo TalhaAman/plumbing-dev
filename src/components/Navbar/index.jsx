@@ -3,6 +3,7 @@ import "./navbar.css";
 
 import mainLogo from "../../assets/icons/main-logo.png";
 import Hamburger from "../../assets/icons/menu.png";
+import { menuItems } from "../../constants/menu";
 
 const Navbar = () => {
   return (
@@ -13,14 +14,9 @@ const Navbar = () => {
         </div>
         <div className="nav-menu d-flex align-items-center px-4 ps-0">
           <ul className="d-none d-xl-flex gap-3 mb-0 ps-0">
-            <li>Home</li>
-            <li>Service</li>
-            <li>About us</li>
-            <li>Payment</li>
-            <li>Testimonials</li>
-            <li>Samples</li>
-            <li>Estimation Fee</li>
-            <li>Contact us</li>
+            {menuItems?.map((item) => (
+              <li>{item}</li>
+            ))}
           </ul>
           <div className="d-flex gap-3 align-items-center">
             <button className="get-estimate  ms-sm-4">Get Estimate</button>
@@ -52,30 +48,11 @@ const Navbar = () => {
               </div>
               <div className="offcanvas-body">
                 <div>
-                  <div className="regular mb-3">
-                    <p className=" mb-1">Home</p>
-                  </div>
-                  <div className="regular mb-3">
-                    <p className=" mb-1">Service</p>
-                  </div>
-                  <div className="regular mb-3">
-                    <p className=" mb-1">About us</p>
-                  </div>
-                  <div className="regular mb-3">
-                    <p className=" mb-1">Payment</p>
-                  </div>
-                  <div className="mb-4">
-                    <p className="regular mb-1">Testimonials</p>
-                  </div>
-                  <div className="mb-3">
-                    <p className="regular mb-1">Samples</p>
-                  </div>
-                  <div className="mb-3">
-                    <p className="regular mb-1">Estimation Fee</p>
-                  </div>
-                  <div className="mb-3">
-                    <p className="regular mb-1">Contact us</p>
-                  </div>
+                  {menuItems?.map((item) => (
+                    <div className="regular mb-3">
+                      <p className=" mb-1">{item}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -87,14 +64,9 @@ const Navbar = () => {
         style={{ marginTop: "-10px !important" }}
       >
         <ul className="d-none d-md-flex d-xl-none gap-3 mb-0 ps-0">
-          <li>Home</li>
-          <li>Service</li>
-          <li>About us</li>
-          <li>Payment</li>
-          <li>Testimonials</li>
-          <li>Samples</li>
-          <li>Estimation Fee</li>
-          <li>Contact us</li>
+          {menuItems?.map((item) => (
+            <li>{item}</li>
+          ))}
         </ul>
       </div>
     </div>

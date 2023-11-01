@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  getQoute,
+  recieveEstimate,
+  uploadPlans,
+} from "../../constants/textConstants";
 
 const StepsSection = () => {
   return (
@@ -8,7 +13,7 @@ const StepsSection = () => {
       </h3>
       <div>
         <h5>
-          <b>1- Upload you Plans</b>
+          <b>1- Upload your Plans</b>
         </h5>
         <p className="text-justify">
           <span
@@ -21,24 +26,16 @@ const StepsSection = () => {
           >
             Click Here
           </span>{" "}
-          to upload your plans. we accept PDF format and your plans can be Bid
-          set, Schematic, Design Development, Construction document, or
-          conceptual drawings.
+          {uploadPlans}
         </p>
         <h5>
           <b>2- Get a Qoute</b>
         </h5>
-        <p>
-          Quotes will be based on invoice, delivery date, and turnaround time.
-        </p>
+        <p>{getQoute}</p>
         <h5>
           <b>3- Receive Estimate</b>
         </h5>
-        <p>
-          Estimates will be delivered to you in EXCEL sheets comprising all the
-          material and labor pricing with cut reports either in MasterFormat or
-          your customized format.
-        </p>
+        <p>{recieveEstimate}</p>
       </div>
     </div>
   );
