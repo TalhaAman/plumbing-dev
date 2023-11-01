@@ -3,7 +3,7 @@ import "./benfitsSection.css";
 
 const BenefitsSection = () => {
   return (
-    <section className="d-flex justify-content-between align-items-center pt-3 mb-5">
+    <section className="benefits-section d-flex flex-column flex-lg-row justify-content-between align-items-center pt-3 mb-5 gap-3">
       <div>
         <div>
           <h3 className="secondary-heading secondary-clr mb-5">

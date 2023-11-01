@@ -1,11 +1,27 @@
 .secondary-clr {
   color: #ff7518;
 }
+.green-clr {
+  color: #008000;
+}
+.white-clr {
+  color: white;
+}
 .article {
   font-weight: 400;
-  font-size: 21px;
-  text-align: justify;
+  font-size: 18px;
 }
 .secondary-heading {
   font-weight: 900;
+  font-size: 21px;
+}
+
+@media only screen and (min-width: 576px) {
+  .article {
+    font-size: 21px;
+    text-align: justify;
+  }
+  .secondary-heading {
+    font-size: 24px;
+  }
 }

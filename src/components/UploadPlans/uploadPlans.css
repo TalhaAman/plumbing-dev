@@ -1,0 +1,36 @@
+.upload-section {
+  flex: 1;
+}
+.info-text {
+  flex: 2;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.upload-btn {
+  background-color: #ff7518;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 13px 13px 4px rgba(0, 0, 0, 0.25);
+}
+.upload-icon {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.upload-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 567px) {
+  .info-text {
+    font-weight: 900;
+    font-size: 24px;
+  }
+}

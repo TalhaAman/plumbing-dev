@@ -16,3 +16,20 @@
 .contact-wrapper {
   flex: 2;
 }
+.top-header-heading {
+  text-align: center;
+  font-size: 18px;
+}
+.top-off-badge h5 {
+  font-size: 16px;
+}
+.top-icon {
+  width: 19px;
+  height: 19px;
+}
+@media only screen and (min-width: 769px) {
+  .top-icon {
+    width: 26px;
+    height: 26px;
+  }
+}

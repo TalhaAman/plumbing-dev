@@ -1,0 +1,28 @@
+.trade-card {
+  width: 240px;
+  height: 220px;
+  position: relative;
+}
+.trade-card-img {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  z-index: -1;
+  border-radius: 10px;
+}
+.trade-card-img img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+.trade-header {
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0px;
+  z-index: 999;
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 25px 0 25px 0;
+  border-radius: 10px;
+}

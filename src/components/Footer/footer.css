@@ -1,0 +1,23 @@
+.footer {
+  background-color: #1b1b1b;
+  padding-bottom: 10px;
+}
+.copyright {
+  color: white;
+  font-size: 10px;
+}
+.footer-text {
+  text-align: justify;
+  font-size: 13px;
+}
+.footer-section {
+  flex: 1;
+}
+.footer-section ul li {
+  list-style: none;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  cursor: pointer;
+}

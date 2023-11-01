@@ -63,6 +63,6 @@ export const tradeData = [
     id: "4",
     title: "Masonry",
     image:
-      "https://s3-alpha-sig.figma.com/img/c4fb/6926/bd4b121d30977dc9f187ab36b620dbb9?Expires=1699833600&Signature=ZWPobtwr7mFhEygU9Oi5IVrd5noXXNlBgWahlIauYbU9aOSJ1MDOnVZbobr-D0pHW4AgAAiyyrA6gpW4wq8LbwiEZv7MaFwBdTVHE6Q8-TGs2-900DqKPfwYtHTAe5viE4umAfdPLwrwDBXzqQYWu8LIC6eDx1K5lvmNIBMsVpnewJ1Lb7J4bqWXG2-90QxgfQl38T-AAcib5Xl1mhUuoH7IzAHdMR0p670-ZYT0ldVS8pQnNlixlaGQ2QcNB~mNAqiZjKzOnnF10EBTEuwtch-JaFsGvWEOuOB0W7xjLk3hH3kgGFIq~dlT7RNS9ATO1JLalnV-LIYE1j5CI9nGQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "https://s3-alpha-sig.figma.com/img/1a48/40ec/5af1c05b214235ad49cc0c6efc0a6644?Expires=1699833600&Signature=fOHa3QZUsYbTDizZHow~vH-b9eV-mPfYJPPCTMGVFkjtDuIqEGuhRAX-iBR6K2UGgqNlsSBCnaVwDdiF3DYXjgY5552RzAa2tAP4jOL5xxGE9pdXih-f1GHEWzjsdXSaC~-XoOttL09Lmc5JDt7A6slaQCGk6lDQMJuRuQNxb981aKiVX3RhNsbJuR4XlQUhkEFwU0RZuCVtzNoE55NPs1JfHEN5qMXdp-Q9ECIJlfLGQC4xBa28lc~WIv-ZmqUeTc4EUhFY41EgzSeYc~EH8ydnr8H1S9O-cIzb~Sa67U2atGXNLjUIpR1E9NW2MW7zvcVBx~OwWlWzx7eFHxZl0w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
 ];

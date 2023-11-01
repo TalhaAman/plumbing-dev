@@ -1,14 +1,15 @@
-/* .main-header {
-  background-size: "cover" !important;
-  background-repeat: "no-repeat";
-  background-position: "center";
-} */
 .main-header-wrapper {
   background: linear-gradient(90deg, #ff7518 0%, rgba(217, 217, 217, 0) 98.71%);
-  padding: 50px;
+  padding: 50px 20px;
   min-height: 40vh;
 }
 .main-heading {
   color: #fff;
   font-weight: 900;
+}
+
+@media only screen and (min-width: 576px) {
+  .main-header-wrapper {
+    padding: 50px;
+  }
 }
