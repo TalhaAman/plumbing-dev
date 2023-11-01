@@ -1,11 +1,11 @@
 .secondary-clr {
-  color: #ff7518;
+  color: var(--secondary);
 }
 .green-clr {
-  color: #008000;
+  color: var(--green);
 }
 .white-clr {
-  color: white;
+  color: var(--white);
 }
 .article {
   font-weight: 400;

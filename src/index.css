@@ -13,6 +13,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --primary: #2f2f2f;
+  --secondary: #ff7518;
+  --secondary-dark: #ea6004;
+  --white: #fff;
+  --grey: #e1e3e5;
+  --dark-grey: #cfcdcd;
+  --black: #1b1b1b;
+  --green: #008000;
 }
 .container {
   max-width: 1100px;

@@ -1,9 +1,9 @@
 .footer {
-  background-color: #1b1b1b;
+  background-color: var(--black);
   padding-bottom: 10px;
 }
 .copyright {
-  color: white;
+  color: var(--white);
   font-size: 10px;
 }
 .footer-text {
@@ -15,7 +15,7 @@
 }
 .footer-section ul li {
   list-style: none;
-  color: white;
+  color: var(--white);
   font-weight: 700;
   margin-bottom: 15px;
   text-align: center;

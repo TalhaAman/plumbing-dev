@@ -7,9 +7,9 @@ import { menuItems } from "../../constants/menu";
 
 const Navbar = () => {
   return (
-    <div className="navbar-bg pb-md-1 pb-xl-0">
-      <nav className="navbar d-flex jsutify-content-between align-items-center ">
-        <div className="main-logo">
+    <div className="navbar-bg pb-md-1 pb-xl-0 ">
+      <nav className="navbar d-flex jsutify-content-between align-items-center py-0">
+        <div className="main-logo pt-1">
           <img src={mainLogo} />
         </div>
         <div className="nav-menu d-flex align-items-center px-4 ps-0">

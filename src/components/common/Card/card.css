@@ -1,12 +1,12 @@
 .primary-card {
   width: 280px;
   height: 340px;
-  background-color: #2f2f2f;
+  background-color: var(--primary);
   border-radius: 15px;
   overflow: hidden;
 }
 .card-header {
-  color: #fff;
+  color: var(--white);
   padding: 27px 0 48px 0;
 }
 .card-img {

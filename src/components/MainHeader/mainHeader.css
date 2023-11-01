@@ -4,7 +4,7 @@
   min-height: 40vh;
 }
 .main-heading {
-  color: #fff;
+  color: var(--white);
   font-weight: 900;
 }
 
