@@ -39,3 +39,30 @@ export const plumbingData = [
       "https://s3-alpha-sig.figma.com/img/038d/28ae/db460d6adc1e6e838e02ea806a2f3ddf?Expires=1699833600&Signature=o0NBsgB8KqkUrj6mPIwf1BPQDWL9ZTqzUWkihhAw9rxpLx8NDe-QoxxKL4mtIzrvD2uFn3xJNjAS4ajAjwb9unLJk3HAn29q4Kr5Q5Px67E4mUu0Jvy-yFvL3uIkPciikcHlglsYTdTOQvrZo5-eCDUpFgnBw09i6LDQ~9kUy-aPBTTeim-wWf~91evf7RjO5DuIGkDs0ED2mWbEDLpqy5toFOhbdafkenaRMHaxy4TMaqurNWzfH-uj6H14L0d-ABIkxl9lFJ9xuJNXHfvWFGQqmhDfchHDEzLwAKtxGicu64RAbcC1XA36ITG6xR0lihdOOlUaVpS44RkRC3eRtw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
   },
 ];
+
+export const tradeData = [
+  {
+    id: "1",
+    title: "General Requirement",
+    image:
+      "https://s3-alpha-sig.figma.com/img/41c8/cd1b/456986aa2e2d0b73e5aada9eada3cd3a?Expires=1699833600&Signature=C9AgZkbVN1hMc1i6e5YiZNuQx4Tq40qxh-dRcVHg-fTfKSzKGjnjXWU9R1C3mzyUGKt12s~f2oepszudNL9lFcmLdEUFjPabBrdp3EU98F8S7r4PiNFA31EoSfqFP3mdcf0WhOhIEfmAJrPg~6dN4GQle~wea-rFDXR-uulLdctQqxhNcaXbiI9SAVtbRD3OTGlOP30Yg20OzMLqAaAiL5cDEBbn4euSIpbFbr8VD-3MWpUzYdid7M~22lT5WaoGER-ZM4bPo-RoQMj2JvHmICaQ9nBxMZzqrPmglr1aNpYACfLh0BdMj57jM4l2zATTj5YjR1AdVg~fisWLTTHsOA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+  {
+    id: "2",
+    title: "Site Works",
+    image:
+      "https://s3-alpha-sig.figma.com/img/f9d7/dbb4/7d12d7c51da6f653fbe10ae3f3e908bb?Expires=1699833600&Signature=cDiWKtxdc5ccepk3SQP6SCvTuSNl5hj~aJZ-yIqBbq0I-GihfBjSRyw9lWv5Ng0fpoPvPnF0ntXnGH3syp~JfKbWPslH~MZ6H~diJLnyNMejlIk0M~7oseZPwFfj48YIEYwdr2W3c5D7Jsw4MZ2o0xAJjU0weYS7OYfW4rrlbNq-MzffBBhI-HEy9MC8LPingQeGq2K9WBWGEDhNVRcz-PqpBLHF3yaf-H3PaCCUKTxqF-CYwezJHa9MfoZi3yo~fHTct3zZx~zMQ6Mzf6bl0s8LeBx519bh8OWp5v3-J6Fsre9SD1gilZjHxMZSLyQYq7C6Rx3z3DK1zG01-O0gSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+  {
+    id: "3",
+    title: "Concrete",
+    image:
+      "https://s3-alpha-sig.figma.com/img/c4fb/6926/bd4b121d30977dc9f187ab36b620dbb9?Expires=1699833600&Signature=ZWPobtwr7mFhEygU9Oi5IVrd5noXXNlBgWahlIauYbU9aOSJ1MDOnVZbobr-D0pHW4AgAAiyyrA6gpW4wq8LbwiEZv7MaFwBdTVHE6Q8-TGs2-900DqKPfwYtHTAe5viE4umAfdPLwrwDBXzqQYWu8LIC6eDx1K5lvmNIBMsVpnewJ1Lb7J4bqWXG2-90QxgfQl38T-AAcib5Xl1mhUuoH7IzAHdMR0p670-ZYT0ldVS8pQnNlixlaGQ2QcNB~mNAqiZjKzOnnF10EBTEuwtch-JaFsGvWEOuOB0W7xjLk3hH3kgGFIq~dlT7RNS9ATO1JLalnV-LIYE1j5CI9nGQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+  {
+    id: "4",
+    title: "Masonry",
+    image:
+      "https://s3-alpha-sig.figma.com/img/c4fb/6926/bd4b121d30977dc9f187ab36b620dbb9?Expires=1699833600&Signature=ZWPobtwr7mFhEygU9Oi5IVrd5noXXNlBgWahlIauYbU9aOSJ1MDOnVZbobr-D0pHW4AgAAiyyrA6gpW4wq8LbwiEZv7MaFwBdTVHE6Q8-TGs2-900DqKPfwYtHTAe5viE4umAfdPLwrwDBXzqQYWu8LIC6eDx1K5lvmNIBMsVpnewJ1Lb7J4bqWXG2-90QxgfQl38T-AAcib5Xl1mhUuoH7IzAHdMR0p670-ZYT0ldVS8pQnNlixlaGQ2QcNB~mNAqiZjKzOnnF10EBTEuwtch-JaFsGvWEOuOB0W7xjLk3hH3kgGFIq~dlT7RNS9ATO1JLalnV-LIYE1j5CI9nGQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+  },
+];

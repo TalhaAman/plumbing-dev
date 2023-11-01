@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="main-logo">
         <img src={mainLogo} />
       </div>
-      <div className="nav-menu d-flex align-items-center px-4">
-        <ul className="d-flex gap-3 mb-0">
+      <div className="nav-menu d-flex align-items-center px-4 ps-0">
+        <ul className="d-flex gap-3 mb-0 ps-0">
           <li>Home</li>
           <li>Service</li>
           <li>About us</li>

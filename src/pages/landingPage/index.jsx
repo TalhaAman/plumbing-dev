@@ -5,7 +5,14 @@ import TopHeader from "../../components/TopHeader";
 import Navbar from "../../components/Navbar";
 import MainHeader from "../../components/MainHeader";
 import CardList from "../../components/common/CardList";
-import { mechanicalData, plumbingData } from "../../utlility/fakeData";
+import {
+  mechanicalData,
+  plumbingData,
+  tradeData,
+} from "../../utlility/fakeData";
+import BenefitsSection from "../../components/BenfitsSection";
+import StepsSection from "../../components/StepsSection";
+import TradeList from "../../components/TradeList";
 
 const LandingPage = () => {
   console.log(mechanicalData);
@@ -39,12 +46,18 @@ const LandingPage = () => {
           </h3>
           <CardList data={mechanicalData} />
         </div>
-        <div>
+        <div className="mb-5">
           <h3 className="secondary-heading secondary-clr mb-5">
             Plumbing Estimation Data
           </h3>
           <CardList data={plumbingData} />
         </div>
+        <BenefitsSection />
+        <StepsSection />
+        <h3 className="secondary-heading secondary-clr mb-5 text-center">
+          Take a look at our Trades
+        </h3>
+        <TradeList data={tradeData} />
       </div>
     </div>
   );

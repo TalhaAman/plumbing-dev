@@ -1,0 +1,11 @@
+.benefits-section-img {
+  width: 420px;
+  height: 540px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.benefits-section-img img {
+  width: 480px;
+  height: 650px;
+  object-fit: cover;
+}

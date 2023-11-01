@@ -4,6 +4,7 @@
 .article {
   font-weight: 400;
   font-size: 21px;
+  text-align: justify;
 }
 .secondary-heading {
   font-weight: 900;
