@@ -22,7 +22,7 @@ const BenefitsSection = () => {
           </ul>
         </div>
         <div>
-          <h3 className="secondary-heading secondary-clr mb-5">
+          <h3 className="secondary-heading secondary-clr mb-3">
             Our Plumbing Estimating Services
           </h3>
           <div className="d-flex justify-content-between align-items-start">
